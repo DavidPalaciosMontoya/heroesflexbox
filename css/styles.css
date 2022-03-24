@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.0/css/all.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+    font-weight: 400px;
+    top: 400px;
+    /* width: 100%;
+    height: 4000px; */
+}
+
+.header1 {
+    background: #1CD1B0;
+    height: 38px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.header1 p {
+    font-size: 15px;
+    height: 18px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 111px;
+}
+
+.header2 {
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 101px;
+    left: 0px;
+    position: absolute;
+    top: 38px;
+    width: 100%;
+}
+
+.header2 h1 {
+    font-size: 40px;
+    height: 47px;
+    left: 28px;
+    position: absolute;
+    top: 28px;
+    width: 128px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 292px;
+    width: 100%;
+}
+
+main div {
+    background-color: #F3F3F3;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 531px;
+    position: relative;
+    width: 300px;  
+}
+
+.bannerBatman {
+    background-image: url('../img/bannerbatman.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bannerQuinn {
+    background-image: url('../img/bannerquinn.png');
+    background-repeat: no-repeat;
+}
+
+.Quinn {
+    background-image: url('../img/perfilquinn.png');
+}
+
+.Batman {
+    background-image: url('../img/parfilbatman.png');
+}
+
+.texto {
+    font-size: 16px;;
+    margin: 0px 17px 0px 19px;
+    position: absolute;
+    top: 320px;
+}
+
+.perfil {
+    
+    background-repeat: no-repeat;
+    border-radius: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 118px;
+    left: 90px;
+    position: absolute;
+    top: 128px;
+    width: 120px;
+}
+
+.tituloBatman {
+    font-size: 30px;
+    left: 89px;
+    position: absolute;
+    top: 267px;
+}
+.tituloQuinn {
+    font-size: 30px;
+    left: 65px;
+    position: absolute;
+    top: 267px;
+    
+}
+
+.heart {
+    color: #CC2424;
+    left: 21px;
+    position: absolute;
+    top: 15.88px;
+}
+
+footer {
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFF9F9;
+    height: 51px;
+    left: 0px;
+    position: absolute;
+    top: 972px;
+    width: 100%;
+}
+
+footer p {
+    color: #FFF9F9;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+}
+
+.vermas {
+    background: #00669F;
+    border-radius: 0px;
+    bottom: 18.48px;
+    height: 48.52px;
+    left: 85px;
+    position: absolute;
+    width: 128.78px;
+}
+
+.vermas a {
+    color: #F3F3F3;
+    font-size: 15px;
+    left: 37px;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+}
